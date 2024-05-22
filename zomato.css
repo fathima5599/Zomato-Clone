@@ -1,0 +1,486 @@
+ body{ 
+    
+   height: 100vh;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.topnav{
+   display: inline-flex;
+   position: fixed;
+   background-color: white;
+   top: 0%;
+
+} 
+
+.z-logo{
+    margin-left: 5rem;
+    margin-top: 10px;
+    
+}
+.z-log img{
+    height: 25px;
+    width: 150px;
+}
+
+.topnav-button{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 10px;
+    
+}
+
+.topnav-button button{
+    height:40px;
+    width:130px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    text-align:center;
+    color: #9c9c9c;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.topnav-button .log-button{
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+.search-logo 
+ img{
+    height: 20px;
+    margin-left: 10rem;
+    margin-top: 18px;
+    margin-right: 3px;
+}
+
+.search-box .search-text{
+    height: 40px;
+    width: 500px;
+    text-decoration: none;
+    border:none;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 6px;
+    
+}
+
+.topnav-button button:hover{
+    cursor: pointer;
+}
+
+.delivery button{
+    height:40px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    background-color:white;
+    text-align: center;
+    color: #6a6a6a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-delivery{
+    height: 150px;
+}
+
+.delivery{
+
+    margin-left:10rem;
+    margin-top: 10px;
+
+}
+
+
+
+.top-delivery .delivery a{
+
+    text-decoration: none;
+
+}
+
+.delivery img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-right: 5px;
+}
+ 
+.delivery button{
+    margin-right: 10px;
+    height: 75px;
+    width: 150px;
+}
+ .delivery button:hover{
+    cursor: pointer;
+ }
+
+ .delivery button:active{
+    cursor: pointer;
+    color: black;
+ }
+
+
+ .filterbuttons{
+    margin-left: 5rem;
+    margin-top: 10px;
+ }
+ .filterbuttons a{
+    text-decoration: none;
+ }
+
+ .filterbutton button{
+    margin-top: 10px;
+    margin-right: 1opx;
+    height: 35px;
+    width: 95px;
+    background-color: white;
+    border: rgb(207,207,207)solid;
+    border-width: thin;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #a2a2a2;
+
+
+ }
+
+ #cuisines{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 35px;
+    width: 95px;
+    background-color: white;
+    background-color: white;
+    border: rgb(207,207,207)solid;
+    border-width: thin;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #a2a2a2;
+    text-align: center;
+
+
+ }
+
+/*inspiration for your first food*/
+
+.div-2 .item{
+
+    display: inline-flex;
+    margin: 20px;
+
+}
+
+.item img{
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 10px;
+    animation: zoom-in-zoom-out 1s;
+}
+
+.div-2{
+    margin-left: 5rem;
+    
+    margin-top: 10px;
+
+}
+.div2{
+    background-color: #f8f8f8;
+    margin-top: 20px;
+
+
+}
+.div-2 h1{
+    margin-top: 20px;
+    color:#363636;
+    padding-top: 30px;
+}
+
+.item a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.item  a h3{
+    font-size: 20px;
+    margin-right: 25px;
+    color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+@keyframes zoom-out{
+    0%{
+        transform: scale(0.5,0.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+/* brand container*/
+
+.brand-container .brand-img{
+    display: inline-flex;
+    margin: 20px;
+}
+
+.brand-img img{
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 10px;
+    animation: zoom-in-zoom-out 1s;
+
+}
+
+.brand-img a{
+    text-decoration: none;
+    text-align: center;
+}
+.div3{
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+.brand-container h1{
+    margin-top: 20px;
+    color: #363636;
+    padding-top: 10px;
+}
+
+.brand-container a h3{
+    color: gray;
+    font-weight: 100;
+}
+
+/* best food in chennai */
+
+ .div4{ 
+    
+    
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading{
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+
+.card{
+    width:350px;
+    height: 500px;
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+
+.card:hover{
+    box-shadow: 0px 4px 4px rgb(95,86,86);
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    animation: zoom-in-zoom-out 1s;
+    
+}
+.card-content{
+    padding: 8px;
+}
+.card-content h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    color: rgb(40,40,40);
+}
+.card-content p{
+    font-size: 20px;
+    justify-content: space-between;
+    color: rgb(156,156,156);
+    font-family: sans-serif;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+}
+#h3s{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 170px;
+}
+.card-content #rating{
+    background-color: rgb(38,126,62);
+    width: 60px;
+    height: 20px;
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.info-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+hr{
+    color: rgb(156,156,156);
+}
+.card-bottomcontent{
+    overflow: hidden;
+}
+
+.card-bottomcontent img{
+    width: 50px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.card-bottomcontent div{
+    display: flex;
+    align-items: center;
+}
+.card-bottomcontent div #p2{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+} 
+/*footer*/
+
+footer{
+    background-color:#f8f8f8;
+    height:600px;
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+.top-footer img{
+    height: 25px;
+    width: 150px;
+    margin-left: 5rem;
+    margin-top: 50px;
+
+}
+footer .top-footer{
+    display: inline-block;
+    
+}
+#india{
+    margin-left: 900px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: rgb(207,207,207);
+    border-width: thin;
+    border-radius: 10px;
+    color:black;
+    text-decoration: none;
+    padding: 8px;
+    width: 93px;
+
+}
+
+#language{
+    margin-left: 1000px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: white;
+    border: rgb(207,207,207);
+    border-width: thin;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    width: 140px;
+
+}
+
+footer .middle-footer{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+.middle-footer .about-zomato a p{
+    color: #b1b1b1;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+.middle-footer .about-zomato a{
+    text-decoration: none;
+}
+.middle-footer .about-zomato{
+    width: 200px;
+}
+.middle-footer .about-zomato h3{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+    
+.middle-footer .about-zomato{
+    margin: 20px;
+}
+
+#Zomaverse{
+
+    width: 200px;
+    padding: 0%;
+    margin-right: 0%;
+
+}
+#for-restaurants{
+    width: 300px;
+    margin-right: 0%;
+}
+
+#Social-links .social img{
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+    
+}
+.apple-playstore{
+    width: 200px;
+    height: 200px;
+}
+.apple-playstore img{
+    width: 130px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
