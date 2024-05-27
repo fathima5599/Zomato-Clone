@@ -1,1 +1,2 @@
-Zomato UIPage Project Using HTML and CSS
+Zomato-Clone-Project
+Zomato UI Page Project Using HTML and CSS
